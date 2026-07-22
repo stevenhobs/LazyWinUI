@@ -1,0 +1,38 @@
+# Visual Studio and .NET IDE files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+publish/
+AppPackages/
+
+# Visual Studio profiling and test output
+[Ll]og/
+[Ll]ogs/
+TestResults/
+
+# NuGet packages and generated metadata
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Native build directories
+x64/
+x86/
+arm64/
+ARM/
+
+# Local OS files
+.DS_Store
+Thumbs.db
