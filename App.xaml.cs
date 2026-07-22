@@ -5,7 +5,6 @@ public partial class App
     private MainWindow? _mainWindow;
 
     public App()
-
     {
         this.InitializeComponent();
     }

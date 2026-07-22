@@ -9,9 +9,10 @@
     <UseWinUI>true</UseWinUI>
     <WindowsPackageType>None</WindowsPackageType>
     <EnableMsixTooling>true</EnableMsixTooling>
-    <PublishAot>true</PublishAot>
+    <PublishAot>false</PublishAot>
     <!-- 程序定义 -->
     <AssemblyName>WinUIApp</AssemblyName>
+    <ApplicationIcon>Assets\icons\app.ico</ApplicationIcon>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <SatelliteResourceLanguages>zh-Hans</SatelliteResourceLanguages>
     <!-- 其他 -->
@@ -20,7 +21,6 @@
     <IsPackable>false</IsPackable>
     <ImplicitUsings>false</ImplicitUsings>
     <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
-    <ApplicationIcon>Assets\icons\app.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugType>none</DebugType>
